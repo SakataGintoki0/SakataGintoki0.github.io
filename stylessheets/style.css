@@ -1,0 +1,119 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.8rem;
+}
+.highlighted{
+    color: rgb(233, 138, 138);
+}
+/* nav bar */
+.header ul a li{
+    list-style: none;
+    display: block;
+    padding: 20px 40px;
+   
+}
+.header ul a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(233, 138, 138);
+}
+.header ul a:hover{
+    text-decoration: none;
+    color: rgb(233, 138, 138);
+    background-color: white;
+}
+.active{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+.header ul{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.header{
+    background-color: rgb(233, 138, 138);;
+}
+
+/* nav-bar ends */
+
+/* landing page */
+.cover{
+    height: 90vh;
+    background-color: rgb(41, 41, 41);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cover img{
+    width: 30vw;
+    align-self: center;
+    margin-left: 100px;
+}
+.cover .content{
+    align-self: center;
+    width: 30vw;
+    font-size: 1rem;
+    color: white;
+}
+.cover .content h2{
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+/* Main Body starts */
+
+.body{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    padding-bottom: 50px;
+}
+.body h1{
+    color: rgb(233, 138, 138);
+    border-bottom: 2px solid rgb(233, 138, 138);
+    padding-bottom: 10px;
+    width: fit-content;
+    margin-left: 10vw;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+.body p{
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 20px;
+    
+}
+
+.work{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10vw;
+}
+.work a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    
+}
+.work a div{
+    background-color: rgb(233, 138, 138);
+    border-radius: 5px;
+    margin-top: 40px;
+    width: 20vw;
+    height: 20vh;
+    padding-top: 7vh;
+}
+.work a div:hover{
+    background-color: tomato;
+    border-radius: 5px;
+    margin-top: 40px;
+    width: 20vw;
+    height: 20vh;
+    padding-top: 7vh;
+}
